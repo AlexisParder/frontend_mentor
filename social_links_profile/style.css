@@ -1,0 +1,78 @@
+:root {
+  --Green-color: hsl(75, 94%, 57%);
+  --White-color: hsl(0, 0%, 100%);
+  --Grey-color: hsl(0, 0%, 20%);
+  --DarkGrey-color: hsl(0, 0%, 12%);
+  --OffBlack-color: hsl(0, 0%, 8%);
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: var(--OffBlack-color);
+  color: var(--White-color);
+}
+
+.card {
+    background: var(--DarkGrey-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 10px 30px 10px;
+    width: 379px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card-name {
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-location {
+    color: var(--Green-color);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card-links {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.card-link:hover {
+    background: var(--Green-color);
+    color: var(--OffBlack-color);
+}
+
+.card-link {
+    display: block;
+    background: var(--Grey-color);
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--White-color);
+    font-weight: 700;
+}
+
+.card-link:hover {
+    background: var(--Green-color);
+    color: var(--OffBlack-color);
+}
