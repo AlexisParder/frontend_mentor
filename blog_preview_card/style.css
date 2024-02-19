@@ -47,10 +47,15 @@ body {
 }
 
 .card-title a {
-    color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
     text-decoration: none;
     font-weight: 800;
 }
+
+.card-title a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
 
 .card-info {
     font-size: 16px;
