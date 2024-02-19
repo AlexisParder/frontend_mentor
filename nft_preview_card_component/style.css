@@ -1,0 +1,123 @@
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --main-color: hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: var(--main-color);
+    color: var(--White);
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    background: var(--card-color);
+    border-radius: 15px;
+    color: var(--Softblue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 30px 20px;
+}
+
+.card .card-view {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    z-index: 5;
+    background: var(--Cyan);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.card .card-view img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .card-img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card .card-view:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.card-title {
+    color: var(--White);
+    font-weight: 600;
+}
+
+.card-info {
+    color: var(--Softblue);
+    font-weight: 300;
+    width: 300px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth, .time {
+    display: flex;
+    align-items: center;
+}
+
+.eth span, .time span {
+    margin-left: 5px;
+}
+
+.eth span {
+    color: var(--Cyan);
+    font-weight: 600;
+}
+
+hr {
+    border-top: 1px solid var(--line-color);
+    background: transparent;
+    color: transparent;
+    margin: 20px 0;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
+    width: 30px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-footer .span-name {
+    color: var(--White);
+}
+
+.card-footer .span-name:hover, .card-title:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
