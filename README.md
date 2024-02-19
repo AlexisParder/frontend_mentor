@@ -9,3 +9,6 @@ https://alexisparder.github.io/frontend_mentor/blog_preview_card/
 
 Social Links Profile : 
 https://alexisparder.github.io/frontend_mentor/social_links_profile/
+
+NFT Preview Card Component :
+https://alexisparder.github.io/frontend_mentor/nft_preview_card_component/
