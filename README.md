@@ -6,3 +6,6 @@ https://alexisparder.github.io/frontend_mentor/qr_code_component/
 
 Blog Preview Card :
 https://alexisparder.github.io/frontend_mentor/blog_preview_card/
+
+Social Links Profile : 
+https://alexisparder.github.io/frontend_mentor/social_links_profile/
