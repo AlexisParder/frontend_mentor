@@ -1,0 +1,46 @@
+* {
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+}
+
+.container {
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
+  padding: 50px;
+  width: 700px;
+}
+
+.img-info {
+  width: 700px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: hsl(24, 5%, 18%);
+}
+
+.prepa-time {
+  background: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+
+.prepa-title {
+  color: hsl(332, 51%, 32%);
+}
+
+.prepa-item{
+  color: hsl(332, 51%, 32%);
+}
