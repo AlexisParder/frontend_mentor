@@ -82,3 +82,13 @@ h2.title-section {
 .ingre-item > p {
   margin-left: 20px;
 }
+
+/* section.ingre, section.instru {
+} */
+
+hr {
+  border: none;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
