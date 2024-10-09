@@ -83,12 +83,25 @@ h2.title-section {
   margin-left: 20px;
 }
 
-/* section.ingre, section.instru {
-} */
-
 hr {
   border: none;
   border-bottom: 1px solid hsl(30, 18%, 87%);
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.instru-item {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  margin-left: -15px;
+}
+
+.instru-item > p {
+  margin-left: -10px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+table tr {
+  border: 1px solid red;
 }
