@@ -1,6 +1,6 @@
 # https://www.frontendmentor.io/challenges/
 
-## Sites
+## Challenges completed
 QR Code Component : 
 https://alexisparder.github.io/frontend_mentor/qr_code_component/
 
