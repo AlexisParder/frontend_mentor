@@ -12,3 +12,6 @@ https://alexisparder.github.io/frontend_mentor/social_links_profile/
 
 NFT Preview Card Component :
 https://alexisparder.github.io/frontend_mentor/nft_preview_card_component/
+
+Recipe Page :
+https://alexisparder.github.io/frontend_mentor/recipe_page/
