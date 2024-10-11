@@ -15,3 +15,6 @@ https://alexisparder.github.io/frontend_mentor/nft_preview_card_component/
 
 ### Recipe Page :
 https://alexisparder.github.io/frontend_mentor/recipe_page/
+
+### Product preview card component :
+https://alexisparder.github.io/frontend_mentor/product_preview_card_component/
